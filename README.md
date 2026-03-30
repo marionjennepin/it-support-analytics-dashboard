@@ -100,3 +100,55 @@ L’analyse met en évidence :
 
 \- Intégration avec un outil de ticketing (ServiceNow, Jira)
 
+
+
+\## Structure du projet
+
+```
+
+it-support-analytics-dashboard/
+
+│
+
+├── data/
+
+│ ├── tickets\_dataset.csv
+
+│ ├── kpi\_summary.csv
+
+│ ├── team\_performance.csv
+
+│ ├── category\_performance.csv
+
+│ ├── daily\_ticket\_volume.csv
+
+│ ├── tickets\_by\_priority.png
+
+│ ├── tickets\_by\_team.png
+
+│ └── daily\_ticket\_volume.png
+
+│
+
+├── scripts/
+
+│ ├── generate\_dataset.py
+
+│ └── analyze\_tickets.py
+
+│
+
+├── docs/
+
+│ ├── process\_support.md
+
+│ ├── faq.md
+
+│ └── user\_guide.md
+
+│
+
+└── README.md
+
+```
+
